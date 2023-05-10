@@ -1,0 +1,32 @@
+.menu-horizontal {
+    background-color: rgb(62, 100, 134);
+}
+
+.lista-nav {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 23px;
+}
+
+.lista-nav__items {
+    margin: .6em;
+}
+
+.lista-nav__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+.lista-nav__items:hover {
+    background-color: var(--laranja);
+}
+
+.lista-nav__link:active {
+    color: var(--laranja);
+}
